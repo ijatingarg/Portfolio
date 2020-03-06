@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700i');
+
+
+body {
+	margin: 0px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	padding-top: 1px;
+	padding-bottom: 6px;
+	padding-left: 40px;
+	height: 50px;
+}
+
+header h1{
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px; 
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	float: left;
+	margin-left: 12px;
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#navul{
+	font-family: 'Kavivanar', cursive;
+}
+
+.Homered:hover{
+		background-color: red;
+		padding: 30px 10px 16px 10px;
+}
+
+.divider{
+	background-color: red;
+	height: 5px;
+}
+
+.Homeblack:hover{
+	background-color: red;
+	padding: 30px 10px 16px 10px;
+}
+
+.bgimage{
+	background-image: url(https://udemy-images.udemy.com/course/750x422/387536_ca0e_5.jpg);
+	height: 610px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.homesub{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding-left: 64%;
+	padding-top: 150px;
+	font-size: 18px;
+	color: violet;
+}
+
+.homedes{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0.5% 0% 0% 63%;
+	font-size: 50px;
+	margin-top: 2px;
+
+}
+
+.homepho{
+	font-family: oswald; 
+	margin: 0% 0% 0% 63%;
+	font-size: 50px;
+	margin-top: px;
+
+}
+
+.button{
+		margin: 0% 0% 0% 63%;
+		background-color: violet;
+		color: black;
+		border: none;
+		height: 50px;
+		font-size: 20px;
+		padding: 0 1em;
+		cursor: pointer;	
+		outline: none;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a.fa.fa-facebook {
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
